@@ -1,0 +1,21 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.background {
+  background-image: url('C:\Users\shiva\Downloads\React-Hooks-Spring-Boot-CRUD-Full-Stack-App-main\React-Hooks-Spring-Boot-CRUD-Full-Stack-App-main\react-hooks-frontend\public\im.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire div */
+  height: 100vh; /* Full viewport height */
+}
+
+.flex {
+  display: flex;           /* This makes the container a flex container */
+  justify-content: space-between; /* This will space out the items with maximum space between them */
+  align-items: center;     /* This will vertically align items to the center */
+}
